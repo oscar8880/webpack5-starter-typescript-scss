@@ -1,4 +1,4 @@
-# Webpack 5 Starter
+# Webpack 5 Starter Kit
 
 A lightweight Starter Kit including Webpack 5, TypeScript, SCSS, ESLint and Prettier.
 
