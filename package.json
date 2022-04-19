@@ -1,0 +1,48 @@
+{
+  "name": "webpack5-starter-typescript-scss",
+  "version": "1.0.0",
+  "description": "A Starter Kit including Webpack 5, TypeScript and SCSS support.",
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.config.dev.js --open",
+    "build": "webpack --config webpack/webpack.config.prod.js",
+    "lint": "eslint src/ --ext .js,.ts --fix && prettier src/ --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "webpack",
+    "frontend",
+    "typescript",
+    "sass",
+    "webdev"
+  ],
+  "author": "Oscar Zealley",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.20.0",
+    "@typescript-eslint/parser": "5.20.0",
+    "css-loader": "6.7.1",
+    "eslint": "8.13.0",
+    "eslint-config-prettier": "8.5.0",
+    "html-webpack-plugin": "5.5.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "mini-css-extract-plugin": "2.6.0",
+    "prettier": "2.6.2",
+    "sass": "1.50.1",
+    "sass-loader": "12.6.0",
+    "style-loader": "3.3.1",
+    "ts-loader": "9.2.8",
+    "typescript": "4.6.3",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.8.1",
+    "webpack-merge": "5.8.0"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --cache --fix",
+    "*.{js,ts,html,css,md}": "prettier --write"
+  }
+}
