@@ -1,7 +1,7 @@
 {
   "name": "webpack5-starter-typescript-scss",
   "version": "1.0.0",
-  "description": "A Starter Kit including Webpack 5, TypeScript and SCSS support.",
+  "description": "A Starter Kit including Webpack 5, TypeScript, SCSS, ESLint and Prettier.",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.dev.js --open",
     "build": "webpack --config webpack/webpack.config.prod.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/oscar8880/webpack5-starter-typescript-scss"
   },
   "keywords": [
     "webpack",
